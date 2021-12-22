@@ -1,10 +1,7 @@
 package com.l0raxeo.arki.gameEngine.init;
 
-import com.l0raxeo.arki.gameEngine.Reference;
 import com.l0raxeo.arki.gameEngine.utils.FileLoader;
 import com.l0raxeo.arki.gameEngine.utils.VersionInfo;
-
-import java.io.IOException;
 
 /**
  * Loads the general project structure, including

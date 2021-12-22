@@ -66,7 +66,7 @@ public final class Engine implements Runnable
         {
             rootPackage.append(splitPackages[i]).append(".");
         }
-        System.out.println(rootPackage);
+
         //rootPackage.deleteCharAt(17);
         // Scans specified package (defined above) for Scenes.
         Reflections reflections = new Reflections(rootPackage.toString());
