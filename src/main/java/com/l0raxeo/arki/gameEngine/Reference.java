@@ -30,22 +30,24 @@ public class Reference implements Initializer
         GAMEID = Objects.requireNonNull(FileLoader.readLine("libs/resources/game_info.txt", 2)).split("=")[1];
         VERSION = Objects.requireNonNull(FileLoader.readLine("libs/resources/game_info.txt", 3)).split("=")[1];
 
-        System.out.println(NAME);
-        System.out.println(GAMEID);
-        System.out.println(VERSION);
+        // display information
+        displayWidth = Integer.parseInt(Objects.requireNonNull(FileLoader.readLine("libs/resources/game_info.txt", 4)).split("=")[1]);
+        displayHeight = Integer.parseInt(Objects.requireNonNull(FileLoader.readLine("libs/resources/game_info.txt", 5)).split("=")[1]);
+        targetFPS = Integer.parseInt(Objects.requireNonNull(FileLoader.readLine("libs/resources/game_info.txt", 6)).split("=")[1]);
+        resizeable = Boolean.parseBoolean(Objects.requireNonNull(FileLoader.readLine("libs/resources/game_info.txt", 7)).split("=")[1]);
     }
 
     // Game Information
 
-    public static String NAME = "Sample Game";
-    public static String GAMEID = "sampleGame";
-    public static String VERSION = "1.0";
-    public static final int targetFPS = 60;
+    public static String NAME;
+    public static String GAMEID;
+    public static String VERSION;
 
     // Display Information
 
-    public static final int displayWidth = 1080;
-    public static final int displayHeight = 720;
-    public static final boolean resizeable = false;
+    public static int displayWidth = 1080;
+    public static int displayHeight = 720;
+    public static int targetFPS = 60;
+    public static boolean resizeable = false;
 
 }

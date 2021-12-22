@@ -36,14 +36,4 @@ public class ProjectStructure implements Initializer
         FileLoader.createDir("libs/resources");
     }
 
-    /**
-     * Creates specific resources and assets, within the directories
-     * created in the preInit() method.
-     */
-    @Override
-    public void init() throws IOException
-    {
-        //FileLoader.writeFile("libs/resources/game_info.txt", "name=" + Reference.NAME, "gameid=" + Reference.GAMEID, "version=" + Reference.VERSION);
-    }
-
 }
