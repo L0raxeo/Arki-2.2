@@ -34,6 +34,7 @@ public class ProjectStructure implements Initializer
     public void preInit()
     {
         FileLoader.createDir("libs/resources");
+        FileLoader.createDir("bin/assets");
     }
 
 }

@@ -21,9 +21,6 @@ public class Reference implements Initializer
     @Override
     public void preInit() throws Exception
     {
-        FileLoader.createDir("libs/resources");
-        FileLoader.createDir("bin/assets");
-
         FileLoader.loadFile("libs/resources/game_info.txt");
 
         NAME = Objects.requireNonNull(FileLoader.readLine("libs/resources/game_info.txt", 1)).split("=")[1];
