@@ -1,4 +1,4 @@
-# Arki-2.2
+# What is Arki Game Engine?
 
 Arki is a 2D Java game engine that aims at allowing Java developers to create games, without having to delve into the deep and confusing weeds of physics.
 
@@ -12,3 +12,7 @@ Main Features:
 - Easy application window setup (width, height, position, additional attibutes... etc)
 - Camera system
 - Initialization system
+
+# Download and Setup
+
+This is the download and setup guide for the Arki closed source game engine. If you would like to be more hands on, you can take a look at [Open Source Arki Game Engine](https://github.com/L0raxeo/Arki-2.2-OpenSource.git).
