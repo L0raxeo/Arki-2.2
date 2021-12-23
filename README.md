@@ -16,3 +16,14 @@ Main Features:
 # Download and Setup
 
 This is the download and setup guide for the Arki closed source game engine. If you would like to be more hands on, you can take a look at [Open Source Arki Game Engine](https://github.com/L0raxeo/Arki-2.2-OpenSource.git).
+
+Download Here:
+[Arki-2.2 Closed Source Game Engine](https://drive.google.com/file/d/1KlDYHnshrs7Vvdq1LS3qArpMybvJVgZx/view?usp=sharing)
+
+MacOS:
+
+Installation with IntelliJ:
+
+Installing Arki on IntelliJ is as simple as adding it to it's libraries.
+
+Instructions: File>Project Structure>Libraries>Click the (+) button on the top left corner to add new project Library>Java>Click and highlight downloaded Jar file (Arki)>Open>Apply Changes
